@@ -1,8 +1,17 @@
 import React from 'react'
+import Navbar from './components/Navbar'
+import Home from './components/Home'
 
 export const App = () => {
   return (
-    <div className='bg-red-300'>App</div>
+    <div>
+      <Navbar/>
+      <main>
+        <div id='home'>
+          <Home/>
+        </div>
+      </main>
+    </div>
   )
 }
 
