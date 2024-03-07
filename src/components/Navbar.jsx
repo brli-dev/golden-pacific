@@ -27,7 +27,7 @@ const Navbar = () => {
                         {/* change icon to golden pacific */}
                         <BiRestaurant size={32}/>
                     </span>
-                    <h1 className='text-xl font-semibold'>FoodieWeb</h1>
+                    <h1 className='text-xl font-semibold'>Golden Pacific</h1>
                 </div>
                 <nav className='hidden md:flex flex-row items-center text-lg font-medium gap-8'>
                     <Link to="home" spy={true} smooth={true} duration={500} className='hover:text-brightColor transition-all cursor-pointer'>Home</Link>
