@@ -17,7 +17,7 @@ export const App = () => {
           <Dishes/>
         </div>
 
-        <div id="about">
+        <div>
           <About/>
         </div>
 
