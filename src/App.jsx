@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Dishes from './components/Dishes'
 import About from './components/About'
+import Review from './components/Review'
 
 export const App = () => {
   return (
@@ -17,8 +18,12 @@ export const App = () => {
           <Dishes/>
         </div>
 
-        <div>
+        <div id="about">
           <About/>
+        </div>
+
+        <div id="review">
+          <Review/>
         </div>
 
       </main>
