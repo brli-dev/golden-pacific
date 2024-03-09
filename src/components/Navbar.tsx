@@ -37,10 +37,10 @@ const Navbar = () => {
                         <div className='flex items-center gap-1'>
                         <Link to="dishes" spy={true} smooth={true} duration={500} className='hover:text-brightColor transition-all cursor-pointer'>Dishes</Link>
                         
-                        <BiChevronDown className='cursor-pointer' size={25}/>
+                        {/* <BiChevronDown className='cursor-pointer' size={25}/> */}
                         </div>
 
-                        <ul className='absolute hidden space-y-2 group-hover:block bg-white border border-gray-300 rounded-lg p-5'>
+                        {/* <ul className='absolute hidden space-y-2 group-hover:block bg-white border border-gray-300 rounded-lg p-5'>
                             <li>
                             <Link to="dishes" spy={true} smooth={true} duration={500} className='hover:text-brightColor transition-all cursor-pointer'>Spicy</Link>
                             </li>
@@ -53,7 +53,7 @@ const Navbar = () => {
                             <li>
                             <Link to="dishes" spy={true} smooth={true} duration={500} className='hover:text-brightColor transition-all cursor-pointer'>Crispy</Link>
                             </li>
-                        </ul>
+                        </ul> */}
                     </div>
                     <Link to="about" spy={true} smooth={true} duration={500} className='hover:text-brightColor transition-all cursor-pointer'>About</Link>
                     <Link to="menu" spy={true} smooth={true} duration={500} className='hover:text-brightColor transition-all cursor-pointer'>Menu</Link>
