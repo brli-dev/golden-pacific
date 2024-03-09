@@ -4,6 +4,7 @@ import Home from './components/Home'
 import Dishes from './components/Dishes'
 import About from './components/About'
 import Review from './components/Review'
+import Footer from './components/Footer'
 
 export const App = () => {
   return (
@@ -27,6 +28,8 @@ export const App = () => {
         </div>
 
       </main>
+
+      <Footer/>
     </div>
   )
 }
