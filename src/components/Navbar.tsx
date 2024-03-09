@@ -24,8 +24,10 @@ const Navbar = () => {
             <div className='flex flex-row justify-between p-5 md:px-32 px-5 bg-white shadow-[0_3px_10px_rgba(0,0,0,0.2)]'>
                 <div className='flex flex-row items-center cursor-pointer'>
                     <span>
-                        {/* change icon to golden pacific */}
-                        <BiRestaurant size={32}/>
+                        {/* change icon to golden pacific 金洋*/}
+                        <div className='font-semibold'>
+                            金洋
+                        </div>
                     </span>
                     <h1 className='text-xl font-semibold'>Golden Pacific</h1>
                 </div>
