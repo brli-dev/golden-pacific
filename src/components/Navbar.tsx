@@ -56,7 +56,7 @@ const Navbar = () => {
                         </ul> */}
                     </div>
                     <Link to="about" spy={true} smooth={true} duration={500} className='hover:text-brightColor transition-all cursor-pointer'>About</Link>
-                    <Link to="menu" spy={true} smooth={true} duration={500} className='hover:text-brightColor transition-all cursor-pointer'>Menu</Link>
+                    <a href="https://www.beyondmenu.com/46871/holbrook/new-golden-pacific-holbrook-02343.aspx" className='hover:text-brightColor transition-all cursor-pointer'>Menu</a>
                     <Link to="review" spy={true} smooth={true} duration={500} className='hover:text-brightColor transition-all cursor-pointer'>Reviews</Link>
                     
                 

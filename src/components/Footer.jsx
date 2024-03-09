@@ -24,7 +24,7 @@ const Footer = () => {
             <div>
                 <h1 className='font-medium text-xl pb-4 pt-5 md:pt-0'>Menu</h1>
                 <nav className='flex flex-col gap-2'>
-                    <a className='hover:text-brightColor transition-all cursor-pointer' href="/">Selections</a>
+                    <a className='hover:text-brightColor transition-all cursor-pointer' href="https://www.beyondmenu.com/46871/holbrook/new-golden-pacific-holbrook-02343.aspx">Selections</a>
                 </nav>
             </div>
 
