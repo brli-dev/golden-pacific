@@ -1,8 +1,5 @@
-# React + Vite
+# Golden Pacific Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is just a website promoting the restaurant Golden Pacific in Holbrook, MA. It is not the official website and doesn't aim to be. Some button functionalities do not work as they are just for show. If your picture and name is on the reviews section and you don't feel uncomfortable with it there, contact me and I'll remove it.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://golden-pacific.vercel.app/
